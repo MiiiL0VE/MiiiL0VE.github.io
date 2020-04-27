@@ -46,7 +46,7 @@ h2 {
 	border-radius: 100%;
 	left: 50%;
 	transform: translateX(-50%);
-  margin: 17.0rem auto 0 auto;
+  margin: 16.0rem auto 0 auto;
 }
 
 #container {
@@ -57,11 +57,11 @@ h2 {
 	font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
 	background: #00ffff57;
 	color: #000000;
-	border-radius: 10px;
+	border-radius: 50px;
 	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
 	height:32px;
 	margin: 8.8rem auto 0rem auto;
-	width: 200px;
+	width: 270px;
 }
 
 
@@ -70,7 +70,7 @@ h2 {
 	font-weight: bold;
   left: 50%;
   transform: translateX(-50%);
-  margin: 12.5rem auto 0rem auto;
+  margin: 12.8rem auto 0rem auto;
 	font-size: 23px;
 	font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
 
@@ -93,12 +93,14 @@ h2 {
 	vertical-align: middle;
 	text-align: center;
   padding: 0 20px; 
+	border-radius: 15px;
 }
 .minute{
 	float:left; 
 	width:80px; 
 	height:40px; 
 	background-color:#00ffff57;
+	border-radius: 15px;
 } 
 .second{
 	background-color: #00ffff57;
@@ -108,6 +110,7 @@ h2 {
   margin-left: 15px;
 	vertical-align: middle;
   padding: 0 20px;
+	border-radius: 15px;
 }
 
 .jam-digital p{
@@ -137,7 +140,7 @@ h2 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin: 11.8rem auto 0.0rem auto;
+  margin: 15rem auto 0.0rem auto;
   --hue: var(--hue-neutral);
   padding: none;
   display: flex;
