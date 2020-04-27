@@ -67,10 +67,11 @@ h2 {
 
 #greating {
   position: absolute;
+	font-weight: bold;
   left: 50%;
   transform: translateX(-50%);
-  margin: 13.5rem auto 0rem auto;
-	font-size: 29px;
+  margin: 12.5rem auto 0rem auto;
+	font-size: 25px;
 	font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
 
 }
