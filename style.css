@@ -46,7 +46,7 @@ h2 {
 	border-radius: 100%;
 	left: 50%;
 	transform: translateX(-50%);
-  margin: 16.0rem auto 0 auto;
+  margin: 17.0rem auto 0 auto;
 }
 
 #container {
@@ -67,10 +67,11 @@ h2 {
 
 #greating {
   position: absolute;
+  font-weight: bold;
   left: 50%;
   transform: translateX(-50%);
-  margin: 13.5rem auto 0rem auto;
-	font-size: 170%;
+  margin: 12.5rem auto 0rem auto;
+	font-size: 23px;
 	font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
 
 }
