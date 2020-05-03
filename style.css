@@ -23,8 +23,8 @@ h2 {
   position:absolute;
   left: 50%;
   transform: translateX(-50%);
-	margin: 1rem auto 1.7rem auto;
-	font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
+  margin: 1rem auto 1.7rem auto;
+  font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
 }
 
 .underline-title {
@@ -38,42 +38,109 @@ h2 {
 }
 
 .lingkaran{
-	position: absolute;
-	width: 150px;
-	height: 150px;  
-	border-radius: 25px;
+  position: absolute;
+  width: 150px;
+  height: 150px;  
+  border-radius: 25px;
   box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-	border-radius: 100%;
-	left: 50%;
-	transform: translateX(-50%);
-  margin: 17.0rem auto 0 auto;
+  border-radius: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 16.5rem auto 0 auto;
 }
 
 #container {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-	font-size: 20px;
-	font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
-	background: #00ffff57;
-	color: #000000;
-	border-radius: 10px;
-	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-	height:32px;
-	margin: 8.8rem auto 0rem auto;
-	width: 200px;
+  font-size: 20px;
+  font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
+  background: #00ffff57;
+  color: #000000;
+  border-radius: 50px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height:30px;
+  margin: 9rem auto 0rem auto;
+  width: 260px;
 }
-
 
 #greating {
   position: absolute;
   font-weight: bold;
   left: 50%;
   transform: translateX(-50%);
-  margin: 12.5rem auto 0rem auto;
-	font-size: 23px;
-	font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
+  border-radius: 50px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height:30px;
+  width: 260px;
+  background: #00ffff57;
+  margin: 12.8rem auto 0rem auto;
+  font-size: 23px;
+  font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
+}
 
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+$main: rgba(255,255,255,.75);
+
+.type-container{
+  position: relative;
+  font-size: 1,5rem;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+#line{
+  font-size: 25px;
+  position: absolute;
+  margin: 28rem auto 0rem auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cursor{
+  height: 2rem;
+  width: 2px;
+  margin-left:2px;
+  background: $main;
+  animation: blinkTextCursor 800ms infinite;
+}
+
+@keyframes blinkTextCursor{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+
+audio {
+  display: none;
+}
+
+button1 {
+  font-size: 15px;
+  color: #eee;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  padding: 115px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+button.fade:hover {
+  opacity: 0.8;
+}
+
+.fade {
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
 }
 
 .jam-digital { 
@@ -81,41 +148,42 @@ h2 {
   left: 50%;
   transform: translateX(-50%);
   margin: 4.5rem auto 1.0rem auto;
-	display: table;
-	height: 50px;  
+  display: table;
+  height: 50px;  
 }
 .hours{
-	background-color: #00ffff57;
-	float: left;
+  background-color: #00ffff57;
+  float: left;
   width: 80px;
   height: 40px;
   margin-right: 15px;
-	vertical-align: middle;
-	text-align: center;
+  vertical-align: middle;
+  text-align: center;
   padding: 0 20px; 
+  border-radius: 15px;
 }
 .minute{
-	float:left; 
-	width:80px; 
-	height:40px; 
-	background-color:#00ffff57;
+  background-color:#00ffff57;
+  float:left; 
+  width:80px; 
+  height:40px; 
+  border-radius: 15px;
 } 
 .second{
-	background-color: #00ffff57;
-	float: left;
+  background-color: #00ffff57;
+  float: left;
   width: 80px;
   height: 40px;
   margin-left: 15px;
-	vertical-align: middle;
+  vertical-align: middle;
   padding: 0 20px;
+  border-radius: 15px;
 }
 
 .jam-digital p{
-	font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
-	color:#000000; 
-	font-weight: bold;
-	font-size:27px; 
-	text-align:center; 
+  color:#000000; 
+  font-size:27px; 
+  text-align:center; 
   margin-top: 0px;
   margin-bottom: 0rem;
 }
@@ -124,87 +192,5 @@ h2 {
   box-sizing: border-box;
   text-align: center;
   font-family: Aladin, Rancho, Delius Unicase, Berkshire Swash, serif;
-  font-weight: bold;
-}
-
-:root {
-  --hue-neutral: 200;
-  --hue-wrong: 0;
-  --hue-correct: 145;
-}
-
-.tema {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 11.8rem auto 0.0rem auto;
-  --hue: var(--hue-neutral);
-  padding: none;
-  display: flex;
-  width: 120vw;
-  height: 105vh;
-  justify-content: center;
-  align-items: center;
-}
-
-.tema.correct {
-  --hue: var(--hue-correct);
-}
-
-.tema.wrong {
-  --hue: var(--hue-wrong);
-}
-
-.container {
-  width: 800px;
-  max-width: 80%;
-  border-radius: 5px;
-  padding: 3px;
-  box-shadow: 0 0 10px 1px;
-}
-
-.btn-grid {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 10px;
-  margin: 20px 0;
-}
-
-.btn {
-  --hue: var(--hue-neutral);
-  border: 1px solid hsl(var(--hue), 100%, 30%);
-  background-color: hsl(var(--hue), 100%, 50%);
-  border-radius: 100px;
-  padding: 1px 10px;
-  color: white;
-  outline: none;
-}
-
-.btn:hover {
-  border-color: purple;
-}
-
-.btn.correct {
-  --hue: var(--hue-correct);
-  color: black;
-}
-
-.btn.wrong {
-  --hue: var(--hue-wrong);
-}
-
-.start-btn, .next-btn {
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 1px 60px;
-}
-
-.controls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hide {
-  display: none;
+  font-weight: bolder;
 }
