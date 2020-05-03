@@ -1,5 +1,5 @@
 var line = document.getElementById("line")
-var txts = ["Whatever happens, keep breathing", "I may not with you everyday, but I love you everyday", "I love you", "I'm sorry for loving you"];
+var txts = ["Whatever happens, keep breathing", "I may not with you everyday, but I love you everyday", "sweet, so my days with your voice", "i dream of u tonight", "tomorrow you'll be gone", "i stay to watch u fade away", "I love you", "I'm sorry for loving you"];
 var speed = 100
 
 async function typewriter(txt) {
