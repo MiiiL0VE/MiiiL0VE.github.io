@@ -92,7 +92,7 @@ $main: rgba(255,255,255,.75);
 }
 
 #line{
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   margin: 28rem auto 0rem auto;
   left: 50%;
@@ -130,17 +130,6 @@ button1 {
   outline: none;
   cursor: pointer;
   transition: all 0.4s ease-out;
-}
-
-button.fade:hover {
-  opacity: 0.8;
-}
-
-.fade {
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  transform: translate(0, 0);
 }
 
 .jam-digital { 
