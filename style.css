@@ -117,18 +117,17 @@ audio {
   display: none;
 }
 
-button1 {
-  font-size: 15px;
-  color: #eee;
+button {
   position: absolute;
-  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 140px;
-  padding: 115px;
-  border: none;
-  border-radius: 2px;
-  outline: none;
+  background-color: #ffffff00;
+  width: 150px;
+  height: 150px;  
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px 5px #bd2130;
+  border-radius: 100%;
+  margin: 21.25rem auto 0 auto;
   cursor: pointer;
   transition: all 0.4s ease-out;
 }
